@@ -38,6 +38,7 @@
   gap: 6px;
   flex-wrap: wrap;
   margin-bottom: 12px;
+  max-width: 400px;
 }
 
 .project_item_tags p {

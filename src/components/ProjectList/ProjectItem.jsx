@@ -4,6 +4,7 @@ import styles from './styles.module.css';
 const ProjectItem = ({
   project_name,
   project_url,
+  code = '#',
   project_description,
   tags = [],
   link = '#',
@@ -24,7 +25,9 @@ const ProjectItem = ({
         </div>
 
         <LinkButton {...{ link, target: '_blank', message: 'View Website' }} />
-        <LinkButton {...{ target: '_blank', message: 'View Repo' }} />
+        <LinkButton
+          {...{ link: code, target: '_blank', message: 'View Repo' }}
+        />
       </div>
     </div>
   );
