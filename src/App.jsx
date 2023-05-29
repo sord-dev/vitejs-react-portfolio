@@ -45,7 +45,7 @@ function App() {
       <Route path="/">
         <Route index element={<Home projects={PROJECTS} />} />
         <Route path="projects" element={<Projects projects={PROJECTS} />} />
-        <Route path="profile" element={<Home />} />
+        <Route path="profile" element={<>PROFILE PAGEEE</>} />
       </Route>
     </Routes>
   );

@@ -10,7 +10,7 @@ export const Layout = ({ children }) => {
         <div className="container">
           <div className="title">
             <NavLink to="/" className={navIsActive}>
-              Stef
+              Stef<span style={{ color: 'white' }}>an</span>
             </NavLink>
           </div>
 

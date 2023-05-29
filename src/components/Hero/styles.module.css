@@ -4,6 +4,7 @@
   justify-content: center;
   flex-wrap: wrap-reverse;
   margin-bottom: 32px;
+  gap: 6px;
 }
 
 .hero h2 {
@@ -34,6 +35,15 @@
   background-color: #421688;
   color: white;
   gap: 8px;
+}
+
+.hero div {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero div {
+  gap: 6px;
 }
 
 @keyframes floating {
