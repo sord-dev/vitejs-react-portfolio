@@ -23,7 +23,7 @@ const ProjectItem = ({
           ))}
         </div>
 
-        <LinkButton {...{ link }} />
+        <LinkButton {...{ link, target: '_blank', message: 'View Website' }} />
       </div>
     </div>
   );

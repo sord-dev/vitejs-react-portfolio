@@ -9,9 +9,9 @@ export const LinkButton = ({
   sameSite = false,
 }) => {
   return sameSite ? (
-    <InternalLink {...{ target, link, message }} />
+    <InternalLink {...{ link, message }} />
   ) : (
-    <ExternalLink {...{ link, message }} />
+    <ExternalLink {...{ target, link, message }} />
   );
 };
 
