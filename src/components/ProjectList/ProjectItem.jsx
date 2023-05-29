@@ -12,7 +12,7 @@ const ProjectItem = ({
   return (
     <div className={styles['project_item']}>
       <div className={styles['project_item_thumbnail']}>
-        <img src={project_url ? project_url : ''} alt="boo" />
+        <img src={project_url ? project_url : ''} alt="boo" draggable="false" />
       </div>
       <div className={styles['project_item_meta']}>
         <h3>{project_name}</h3>
