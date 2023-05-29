@@ -1,0 +1,85 @@
+.project_list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+.project_item {
+  display: flex;
+  gap: 12px;
+}
+
+.project_item_meta p {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.project_item button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+}
+
+.project_item_tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.project_item_tags p {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 2px 4px;
+  margin: 0;
+}
+
+.project_item_thumbnail {
+  border: solid 1px black;
+  width: 380px;
+}
+
+.project_item_thumbnail img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .project_item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project_item_meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+  }
+
+  .project_item_tags {
+    justify-content: center;
+    max-width: 300px;
+  }
+
+  .project_item_thumbnail {
+    width: 205px;
+    height: 120px;
+  }
+
+  .project_item_meta p {
+    max-width: 275px;
+  }
+}
