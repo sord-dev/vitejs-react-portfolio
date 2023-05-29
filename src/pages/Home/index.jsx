@@ -1,9 +1,12 @@
 import { Hero, ProjectList } from '../../components';
 import { LinkButton } from '../../components/LinkButton';
+import { useProjectData } from '../../contexts/ProjectDataContext';
 
 import styles from './styles.module.css';
 
-export const Home = ({ projects = [] }) => {
+export const Home = () => {
+  const { projects } = useProjectData();
+
   return (
     <>
       <Hero />
