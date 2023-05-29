@@ -1,0 +1,16 @@
+{
+  "front-end": [
+    { "name": "React" },
+    { "name": "CSS" },
+    { "name": "NextJS" },
+    { "name": "Bootstrap" }
+  ],
+  "back-end": [
+    { "name": "NodeJS" },
+    { "name": "ExpressJS" },
+    { "name": "NextJS" },
+    { "name": "PostgreSQL" },
+    { "name": "MongoDB" }
+  ],
+  "other": [{ "name": "Figma" }, { "name": "Git" }]
+}
