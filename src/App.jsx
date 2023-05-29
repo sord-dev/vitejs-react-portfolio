@@ -3,7 +3,7 @@ import { Home, Projects } from './pages';
 
 // todo
 
-// add project thumbnails (and extra on hover thumbnail) and repo links
+// add extra on hover thumbnail
 // add profile page - skills, experience, cv and socials (show github activity?)
 // add a contact component to home page
 // expand footer component (add socials)?
