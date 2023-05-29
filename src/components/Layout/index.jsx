@@ -8,7 +8,11 @@ export const Layout = ({ children }) => {
     <>
       <header>
         <div className="container">
-          <h1>Stef</h1>
+          <div className="title">
+            <NavLink to="/" className={navIsActive}>
+              Stef
+            </NavLink>
+          </div>
 
           <nav>
             <NavLink className={navIsActive} to="/profile">

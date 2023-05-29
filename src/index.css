@@ -108,9 +108,20 @@ header nav {
 
 nav a.active {
   text-decoration: underline;
+  color: #ae7dfce0;
 }
 
 .background {
   z-index: -1;
   position: absolute;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.title .active {
+  color: #ae7dfce0;
+  text-decoration: underline;
 }
