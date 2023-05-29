@@ -11,9 +11,12 @@
   gap: 12px;
 }
 
+.project_item_meta h3 {
+  font-size: 1.4em;
+}
+
 .project_item_meta p {
   max-width: 350px;
-  margin: 0 auto;
 }
 
 .project_item button {
@@ -41,17 +44,21 @@
   color: black;
   padding: 2px 4px;
   margin: 0;
+  border-radius: 4px;
+  font-weight: 600;
 }
 
 .project_item_thumbnail {
-  border: solid 1px black;
+  border-radius: 4px;
   width: 380px;
+  overflow: none;
 }
 
 .project_item_thumbnail img {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  border-radius: 4px;
 }
 
 @media (max-width: 600px) {
