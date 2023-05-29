@@ -1,11 +1,11 @@
 import React, { useState, useContext, createContext, useEffect } from 'react';
 
-const ProjectDataContext = createContext(null);
+const UserDataContext = createContext(null);
 
 import PROJECTS from '../assets/projects.json';
 import SKILLS from '../assets/skills.json';
 
-export const ProjectDataProvider = ({ children }) => {
+export const UserDataProvider = ({ children }) => {
   const [projects, setProjects] = useState([]);
   const [skills, setSkills] = useState({});
 
@@ -23,10 +23,10 @@ export const ProjectDataProvider = ({ children }) => {
   }, []);
 
   return (
-    <ProjectDataContext.Provider value={{ projects, skills }}>
+    <UserDataContext.Provider value={{ projects, skills }}>
       {children}
-    </ProjectDataContext.Provider>
+    </UserDataContext.Provider>
   );
 };
 
-export const useProjectData = () => useContext(ProjectDataContext);
+export const useProjectData = () => useContext(UserDataContext);

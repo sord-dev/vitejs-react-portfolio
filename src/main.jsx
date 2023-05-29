@@ -6,16 +6,16 @@ import './index.css';
 import { BrowserRouter } from 'react-router-dom';
 
 import { Layout, ParticleBackground } from './components';
-import { ProjectDataProvider } from './contexts/ProjectDataContext.jsx';
+import { UserDataProvider } from './contexts/ProjectDataContext.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <ProjectDataProvider>
+    <UserDataProvider>
       <Layout>
         <ParticleBackground>
           <App />
         </ParticleBackground>
       </Layout>
-    </ProjectDataProvider>
+    </UserDataProvider>
   </BrowserRouter>
 );
