@@ -1,6 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 import { Home, Projects } from './pages';
 
+// todo
+
+// add project thumbnails and repo links
+// add profile page - skills, experience, cv and socials
+// add a contact component to home page
+// expand footer component (add socials)?
+
 const PROJECTS = [
   {
     project_name: 'SerenityAI',

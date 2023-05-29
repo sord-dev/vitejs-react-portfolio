@@ -14,4 +14,5 @@
 
 .link-button button:hover {
   color: #ae7dfce0;
+  gap: 8px;
 }

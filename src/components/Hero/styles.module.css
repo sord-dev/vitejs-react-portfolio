@@ -32,6 +32,7 @@
 
 .hero button:hover {
   background-color: #421688;
+  color: white;
   gap: 8px;
 }
 

@@ -24,6 +24,7 @@ const ProjectItem = ({
         </div>
 
         <LinkButton {...{ link, target: '_blank', message: 'View Website' }} />
+        <LinkButton {...{ target: '_blank', message: 'View Repo' }} />
       </div>
     </div>
   );

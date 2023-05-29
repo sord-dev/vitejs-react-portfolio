@@ -4,6 +4,7 @@
   gap: 1em;
   max-width: max-content;
   margin: 0 auto;
+  margin-bottom: 12px;
 }
 
 .project_item {
@@ -76,7 +77,7 @@
     gap: 4px;
   }
 
-  .project_item:hover {
+  .project_item button:hover {
     color: #ae7dfce0;
   }
 
