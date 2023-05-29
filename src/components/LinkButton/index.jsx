@@ -27,12 +27,10 @@ const ExternalLink = ({ link, target, message }) => {
 
 const InternalLink = ({ link, message }) => {
   return (
-    <Link to={link}>
-      <a className={styles['link-button']} href={link}>
-        <button>
-          {message} <AiOutlineArrowRight />
-        </button>
-      </a>
+    <Link className={styles['link-button']} to={link}>
+      <button>
+        {message} <AiOutlineArrowRight />
+      </button>
     </Link>
   );
 };

@@ -76,6 +76,10 @@
     gap: 4px;
   }
 
+  .project_item:hover {
+    color: #ae7dfce0;
+  }
+
   .project_item_tags {
     justify-content: center;
     max-width: 300px;
