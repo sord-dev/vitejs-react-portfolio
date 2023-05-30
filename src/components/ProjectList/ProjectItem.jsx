@@ -1,20 +1,42 @@
+import React, { useState } from 'react';
+
 import { LinkButton } from '../LinkButton';
 import styles from './styles.module.css';
 
 const ProjectItem = ({
   project_name,
-  project_url,
+  project_url = [],
   code = '#',
   project_description,
   tags = [],
   link = '#',
 }) => {
+  const [hovering, setHovering] = useState(false);
+
+  const handleMouseEnter = () => {
+    setHovering(true);
+  };
+
+  const handleMouseLeave = () => {
+    setHovering(false);
+  };
+
   return (
-    <div className={styles['project_item']}>
-      <div className={styles['project_item_thumbnail']}>
-        <img src={project_url ? project_url : ''} alt="boo" draggable="false" />
+    <div
+      className={styles.project_item}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div className={styles.project_item_thumbnail}>
+        <img
+          src={
+            hovering && project_url.length > 1 ? project_url[1] : project_url[0]
+          }
+          alt="Project Thumbnail"
+          draggable="false"
+        />
       </div>
-      <div className={styles['project_item_meta']}>
+      <div className={styles.project_item_meta}>
         <h3>{project_name}</h3>
         <p>{project_description}</p>
 

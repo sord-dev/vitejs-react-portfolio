@@ -1,4 +1,4 @@
-import { FadeIn, Hero, ProjectList } from '../../components';
+import { Hero, ProjectList } from '../../components';
 import { LinkButton } from '../../components/LinkButton';
 import { useProjectData } from '../../contexts/ProjectDataContext';
 

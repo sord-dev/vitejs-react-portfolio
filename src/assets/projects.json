@@ -1,7 +1,10 @@
 [
   {
     "project_name": "SerenityAI",
-    "project_url": "https://i.ibb.co/Fz5tq4L/sai-thumbnail.png",
+    "project_url": [
+      "https://i.ibb.co/Fz5tq4L/sai-thumbnail.png",
+      "https://user-images.githubusercontent.com/75338985/238082082-4a8c6c35-3953-41d2-b80e-e4088328779e.png"
+    ],
     "link": "https://serenity-ai.netlify.app/authenticate/register",
     "code": "https://github.com/sord-dev/mental-health-server",
     "project_description": "An anonymous AI powered mentorship application designed for people to get tailored and unbiased support.",
@@ -9,7 +12,10 @@
   },
   {
     "project_name": "React Templates",
-    "project_url": "https://user-images.githubusercontent.com/75338985/241231484-f503e849-255d-429e-8e51-6b85800d4940.png",
+    "project_url": [
+      "https://user-images.githubusercontent.com/75338985/241231484-f503e849-255d-429e-8e51-6b85800d4940.png",
+      "https://user-images.githubusercontent.com/75338985/241156536-74994950-fcc0-4241-b1e2-21aa7cf850fd.png"
+    ],
     "link": "http://www.patience-is-a-virtue.org/",
     "code": "https://github.com/sord-dev/react-templates",
     "project_description": "A React Component Repository similar to tailwind components, designed to take away the hassle of designing a bunch of components all the time.",
@@ -17,7 +23,10 @@
   },
   {
     "project_name": "Makeup Artist Portfolio",
-    "project_url": "https://i.postimg.cc/D0Zmytcb/makeup-portfolio.png",
+    "project_url": [
+      "https://i.postimg.cc/D0Zmytcb/makeup-portfolio.png",
+      "https://i.ibb.co/6tsPVwn/Screen-Shot-2023-05-30-at-13-53-1.png"
+    ],
     "link": "https://ashleigh-lavery.vercel.app",
     "code": "https://github.com/sord-dev/Ashleigh-Lavery",
     "project_description": "Makeup Artist portfolio created for Freelance work, showcasing the makeup and photoshoots the client has done.",

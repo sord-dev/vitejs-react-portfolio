@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
-  max-width: max-content;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 12px;
+  align-items: center;
 }
 
 .project_item {
@@ -17,7 +18,7 @@
 }
 
 .project_item_meta p {
-  max-width: 350px;
+  max-width: 475px;
 }
 
 .project_item button {
@@ -53,7 +54,9 @@
 .project_item_thumbnail {
   border-radius: 4px;
   width: 380px;
+  height: 215px;
   overflow: none;
+  object-fit: cover;
 }
 
 .project_item_thumbnail img {
