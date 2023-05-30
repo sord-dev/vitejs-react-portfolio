@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { LinkButton } from '../LinkButton';
 import styles from './styles.module.css';
 

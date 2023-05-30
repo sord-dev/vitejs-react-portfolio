@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home, Projects } from './pages';
+import { Home, Profile, Projects } from './pages';
 
 // todo
 
@@ -14,7 +14,7 @@ function App() {
       <Route path="/">
         <Route index element={<Home />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="profile" element={<>PROFILE PAGEEE</>} />
+        <Route path="profile" element={<Profile />} />
       </Route>
     </Routes>
   );

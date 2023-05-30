@@ -1,4 +1,4 @@
-import { Hero, ProjectList } from '../../components';
+import { FadeIn, Hero, ProjectList } from '../../components';
 import { LinkButton } from '../../components/LinkButton';
 import { useProjectData } from '../../contexts/ProjectDataContext';
 
@@ -9,7 +9,9 @@ export const Home = () => {
 
   return (
     <>
-      <Hero />
+      <FadeIn>
+        <Hero />
+      </FadeIn>
       <div className={styles['project-list']}>
         <ProjectList projects={projects} />
         <LinkButton link="/projects" message="All Projects" sameSite={true} />
