@@ -3,10 +3,9 @@ import { Home, Profile, Projects } from './pages';
 
 // todo
 
-// add extra on hover thumbnail
-// add profile page - skills, experience, cv and socials (show github activity?)
+// add profile page - experience, cv and socials (show github activity)
 // add a contact component to home page
-// expand footer component (add socials)?
+// expand footer component add socials
 
 function App() {
   return (

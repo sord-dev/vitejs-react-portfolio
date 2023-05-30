@@ -3,14 +3,15 @@
   flex-direction: column;
   gap: 1em;
   width: 100%;
-  margin: 0 auto;
-  margin-bottom: 12px;
+  margin: 12px auto;
   align-items: center;
 }
 
 .project_item {
   display: flex;
-  gap: 12px;
+  width: 100%;
+  gap: 1em;
+  justify-content: space-between;
 }
 
 .project_item_meta h3 {
@@ -18,7 +19,16 @@
 }
 
 .project_item_meta p {
-  max-width: 475px;
+  font-size: 1.1em;
+  margin-bottom: 4px;
+}
+
+.project_item_meta {
+  flex: 2;
+}
+
+.project_item_thumbnail {
+  flex: 1;
 }
 
 .project_item button {

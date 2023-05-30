@@ -3,3 +3,4 @@ export * from './Layout';
 export * from './Hero';
 export * from './Particles';
 export * from './FadeIn';
+export * from './SkillStack';

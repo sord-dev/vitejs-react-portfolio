@@ -1,12 +1,13 @@
-import { useEffect } from 'react';
+import { SkillStack } from '../../components';
 import { useProjectData } from '../../contexts/ProjectDataContext';
 
 export const Profile = () => {
   const { skills } = useProjectData();
 
-  useEffect(() => {
-    console.log(skills);
-  }, []);
-
-  return <>PROFILE PAGEEE</>;
+  return (
+    <>
+      <h2 style={{ textAlign: 'center' }}>Skills</h2>
+      <SkillStack {...{ skills }} />;
+    </>
+  );
 };

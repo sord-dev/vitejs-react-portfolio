@@ -15,6 +15,10 @@
     {
       "name": "Bootstrap",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     }
   ],
   "back-end": [
@@ -27,19 +31,27 @@
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
     },
     {
-      "name": "NextJS",
-      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-    },
-    {
       "name": "PostgreSQL",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
     },
     {
+      "name": "NextJS",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+    },
+    {
+      "name": "Sequelize ORM",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg"
+    },
+    {
       "name": "MongoDB",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    },
+    {
+      "name": "Mongoose ODM",
+      "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png"
     }
   ],
-  "other": [
+  "tooling": [
     {
       "name": "Figma",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
