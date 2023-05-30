@@ -1,3 +1,7 @@
+.link-button {
+  width: min-content;
+}
+
 .link-button button {
   background-color: transparent;
   color: white;

@@ -24,10 +24,14 @@ const ProjectItem = ({
           ))}
         </div>
 
-        <LinkButton {...{ link, target: '_blank', message: 'View Website' }} />
-        <LinkButton
-          {...{ link: code, target: '_blank', message: 'View Repo' }}
-        />
+        <div className={styles['project_item_links']}>
+          <LinkButton
+            {...{ link, target: '_blank', message: 'View Website' }}
+          />
+          <LinkButton
+            {...{ link: code, target: '_blank', message: 'View Repo' }}
+          />
+        </div>
       </div>
     </div>
   );

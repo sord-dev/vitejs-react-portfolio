@@ -134,3 +134,8 @@ nav a:hover,
 header a:hover {
   transform: translateY(-3px);
 }
+
+button,
+a {
+  width: max-content;
+}

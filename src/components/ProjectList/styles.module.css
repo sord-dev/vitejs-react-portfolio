@@ -63,6 +63,10 @@
   border-radius: 4px;
 }
 
+.project_item_links {
+  max-width: max-content;
+}
+
 @media (max-width: 600px) {
   .project_item {
     flex-direction: column;
