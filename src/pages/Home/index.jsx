@@ -9,9 +9,9 @@ export const Home = () => {
 
   return (
     <>
-      <FadeIn>
+  
         <Hero />
-      </FadeIn>
+     
       <div className={styles['project-list']}>
         <ProjectList projects={projects} />
         <LinkButton link="/projects" message="All Projects" sameSite={true} />
