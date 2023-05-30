@@ -1,4 +1,4 @@
-import { Hero, ProjectList } from '../../components';
+import { FadeIn, Hero, ProjectList } from '../../components';
 import { LinkButton } from '../../components/LinkButton';
 import { useProjectData } from '../../contexts/ProjectDataContext';
 
@@ -10,11 +10,13 @@ export const Home = () => {
   return (
     <>
       <Hero />
-      <div className={styles['project-list']}>
-        <h2>Selected Work</h2>
-        <ProjectList projects={projects} />
-        <LinkButton link="/projects" message="All Projects" sameSite={true} />
-      </div>
+      <FadeIn>
+        <div className={styles['project-list']}>
+          <h2>Selected Work</h2>
+          <ProjectList projects={projects} />
+          <LinkButton link="/projects" message="All Projects" sameSite={true} />
+        </div>
+      </FadeIn>
     </>
   );
 };

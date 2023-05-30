@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import { FadeIn } from '..';
 import styles from './styles.module.css';
 

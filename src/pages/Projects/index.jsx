@@ -1,4 +1,4 @@
-import { ProjectList } from '../../components';
+import { FadeIn, ProjectList } from '../../components';
 import { useProjectData } from '../../contexts/ProjectDataContext';
 
 export const Projects = () => {
@@ -6,7 +6,9 @@ export const Projects = () => {
 
   return (
     <>
-      <ProjectList projects={projects} />
+      <FadeIn>
+        <ProjectList projects={projects} />
+      </FadeIn>
     </>
   );
 };
