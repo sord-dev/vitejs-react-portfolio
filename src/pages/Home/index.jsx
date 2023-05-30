@@ -9,10 +9,9 @@ export const Home = () => {
 
   return (
     <>
-  
-        <Hero />
-     
+      <Hero />
       <div className={styles['project-list']}>
+        <h2>Selected Work</h2>
         <ProjectList projects={projects} />
         <LinkButton link="/projects" message="All Projects" sameSite={true} />
       </div>

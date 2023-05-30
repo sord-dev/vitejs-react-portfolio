@@ -10,8 +10,8 @@ export const Hero = () => {
   useMouseResponsiveFloating(heroImgRef, 0.01, 12);
 
   return (
-    <section className={styles['hero']}>
-      <FadeIn>
+    <FadeIn>
+      <section className={styles['hero']}>
         <div className={styles['hero-content']}>
           <h2>Front-End React Developer</h2>
 
@@ -24,11 +24,16 @@ export const Hero = () => {
 
           <LinkButton sameSite={true} message="About Me" link="/profile" />
         </div>
-      </FadeIn>
 
-      <div ref={heroImgRef}>
-        <img src="/bitmoji-computer.svg" alt="hero image" draggable="false" />
-      </div>
-    </section>
+        <div ref={heroImgRef}>
+          <img
+            src="/bitmoji-computer.svg"
+            alt="hero image"
+            draggable="false"
+            loading="eager"
+          />
+        </div>
+      </section>
+    </FadeIn>
   );
 };
