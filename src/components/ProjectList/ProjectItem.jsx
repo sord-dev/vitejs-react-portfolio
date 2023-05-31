@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 
 const ProjectItem = ({
   project_name,
-  project_url = [],
+  project_url,
   code = '#',
   project_description,
   tags = [],
@@ -27,15 +27,19 @@ const ProjectItem = ({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className={styles.project_item_thumbnail}>
-        <img
-          src={
-            hovering && project_url.length > 1 ? project_url[1] : project_url[0]
-          }
-          alt="Project Thumbnail"
-          draggable="false"
-        />
-      </div>
+      {project_url ? (
+        <div className={styles.project_item_thumbnail}>
+          <img
+            src={
+              hovering && project_url.length > 1
+                ? project_url[1]
+                : project_url[0]
+            }
+            alt="Project Thumbnail"
+            draggable="false"
+          />
+        </div>
+      ) : null}
       <div className={styles.project_item_meta}>
         <h3>{project_name}</h3>
         <p>{project_description}</p>

@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { LinkButton } from '../LinkButton';
 import styles from './styles.module.css';
 
-import useMouseResponsiveFloating from '../../hooks/useMouseResponsiveFloating.js';
+import useMouseResponsiveFloating from '../../utils/hooks/useMouseResponsiveFloating.js';
 import { FadeIn } from '..';
 
 export const Hero = () => {
