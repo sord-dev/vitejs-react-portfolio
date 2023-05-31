@@ -1,4 +1,4 @@
-import { SkillStack } from '../../components';
+import { AboutMe, SkillStack } from '../../components';
 import { useProjectData } from '../../contexts/ProjectDataContext';
 
 export const Profile = () => {
@@ -6,6 +6,7 @@ export const Profile = () => {
 
   return (
     <>
+      <AboutMe />
       <h2 style={{ textAlign: 'center' }}>Skills</h2>
       <SkillStack {...{ skills }} />;
     </>
