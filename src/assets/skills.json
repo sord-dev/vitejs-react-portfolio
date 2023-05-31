@@ -5,6 +5,10 @@
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     },
     {
+      "name": "Redux",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+    },
+    {
       "name": "CSS",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
     },
@@ -35,10 +39,6 @@
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
     },
     {
-      "name": "NextJS",
-      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-    },
-    {
       "name": "Sequelize ORM",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg"
     },
@@ -49,6 +49,10 @@
     {
       "name": "Mongoose ODM",
       "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png"
+    },
+    {
+      "name": "NextJS",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
     }
   ],
   "tooling": [
@@ -57,8 +61,24 @@
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
     },
     {
+      "name": "Photoshop",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
+    },
+    {
+      "name": "ViteJS",
+      "icon": "https://vitejs.dev/logo-with-shadow.png"
+    },
+    {
       "name": "Git",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    },
+    {
+      "name": "Github",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    },
+    {
+      "name": "Jest",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
     }
   ]
 }
