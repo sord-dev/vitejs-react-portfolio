@@ -3,7 +3,7 @@ import { Home, Profile, Projects } from './pages';
 
 // todo
 
-// add profile page - experience, cv and socials (show github activity)
+// add profile page - experience, cv and socials (show github activity?)
 // add a contact component to home page
 // expand footer component add socials
 
