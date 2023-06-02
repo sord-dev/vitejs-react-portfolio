@@ -34,30 +34,20 @@ export const AboutMe = () => {
 
       <div className={styles['description']}>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec
-          nibh gravida, hendrerit massa ut, condimentum metus. Interdum et
-          malesuada fames ac ante ipsum primis in faucibus. Nulla eget nunc
-          ante. Curabitur at pulvinar mauris. Duis nisl mi, semper nec faucibus
-          ut, venenatis at massa.
+          As a junior web developer with a passion for creating engaging
+          websites, I bring enthusiasm and a willingness to learn. I have
+          hands-on experience with technologies like React, JavaScript, and
+          HTML, allowing me to build dynamic and visually appealing web
+          solutions.
         </p>
+
         <br />
-        <p>Some of my Hobbies include:</p>
-        <ul>
-          <li>
-            🎸 When I'm not scheming on my next project, you'll often find me
-            playing something edgy on my guitar.
-          </li>
-          <li>
-            📖 In my spare time, I delve into books on marketing and software
-            development, constantly seeking to broaden my knowledge.
-          </li>
-          <li>📚 I have a deep fascination with morality and philosophy.</li>
-          <li>
-            🎮 Video games are another passion of mine, providing an interactive
-            medium for storytelling and immersive experiences. They allow me to
-            unwind and tap into my imagination.
-          </li>
-        </ul>
+
+        <p>
+          With a focus on continuous growth, I am dedicated to honing my skills
+          and delivering high-quality projects. I am eager to contribute to
+          collaborative teams and create user-friendly experiences.
+        </p>
       </div>
     </div>
   );

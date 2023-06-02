@@ -104,5 +104,6 @@
   .skill-stack {
     flex-direction: column;
     gap: 48px;
+    height: max-content;
   }
 }

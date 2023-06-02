@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.project_list.float {
+  animation: floating 3.7s ease-in-out infinite;
+}
+
 .project_item {
   display: flex;
   width: 100%;
@@ -111,5 +115,16 @@
 
   .project_item_meta p {
     max-width: 275px;
+  }
+}
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }

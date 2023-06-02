@@ -44,7 +44,7 @@ export const Projects = () => {
   return (
     <>
       <FadeIn>
-        <ProjectList projects={projects} />
+        <ProjectList projects={projects} float={true} />
       </FadeIn>
     </>
   );
