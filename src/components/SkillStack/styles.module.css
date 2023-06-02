@@ -3,11 +3,10 @@
   align-items: center;
   justify-content: space-between;
   margin: 24px auto;
-  max-width: 750px;
+  max-width: 800px;
   height: 200px;
   gap: 24px;
   text-align: center;
-  padding: 24px;
   border-radius: 8px;
   animation: floating 3s ease-in-out infinite;
 }
@@ -34,7 +33,7 @@
 }
 
 .stack button {
-  width: 200px;
+  width: 240px;
   border: none;
   padding: 8px 16px;
   cursor: pointer;

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { FadeIn } from '..';
 import styles from './styles.module.css';
 
 export const SkillStack = ({ skills = {} }) => {
@@ -7,29 +6,28 @@ export const SkillStack = ({ skills = {} }) => {
 
   return (
     <>
+      <h2>My Skills</h2>
       <div className={styles['skill-stack']}>
-        <FadeIn>
-          <div className={styles['stack']}>
-            <button
-              className={activeStack == 'front-end' ? styles['active'] : null}
-              onClick={() => setActiveStack('front-end')}
-            >
-              Front-End 🎨
-            </button>
-            <button
-              className={activeStack == 'back-end' ? styles['active'] : null}
-              onClick={() => setActiveStack('back-end')}
-            >
-              Back-End 💻
-            </button>
-            <button
-              className={activeStack == 'tooling' ? styles['active'] : null}
-              onClick={() => setActiveStack('tooling')}
-            >
-              Tooling 🔨
-            </button>
-          </div>
-        </FadeIn>
+        <div className={styles['stack']}>
+          <button
+            className={activeStack == 'front-end' ? styles['active'] : null}
+            onClick={() => setActiveStack('front-end')}
+          >
+            Front-End 🎨
+          </button>
+          <button
+            className={activeStack == 'back-end' ? styles['active'] : null}
+            onClick={() => setActiveStack('back-end')}
+          >
+            Back-End 💻
+          </button>
+          <button
+            className={activeStack == 'tooling' ? styles['active'] : null}
+            onClick={() => setActiveStack('tooling')}
+          >
+            Tooling 🔨
+          </button>
+        </div>
 
         <div className={styles['pile-container']}>
           <h4>{activeStack}</h4>
