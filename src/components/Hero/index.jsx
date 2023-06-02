@@ -16,10 +16,10 @@ export const Hero = () => {
           <h2>Front-End React Developer</h2>
 
           <p>
-            Passionate Junior Developer specializing in front-end web
-            development. Crafting elegant and intuitive user experiences using
-            modern technologies like React and Next.js. Dedicated to clean code
-            and pixel-perfect design. Let's bring your ideas to life!
+            Welcome to my portfolio! I'm a junior developer specializing in
+            front-end web development. I'm passionate about creating intuitive
+            and visually appealing user experiences using technologies like
+            React and Next.js. Let's collaborate and bring your ideas to life!
           </p>
 
           <LinkButton sameSite={true} message="About Me" link="/profile" />
