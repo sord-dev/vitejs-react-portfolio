@@ -43,10 +43,20 @@ export const AboutMe = () => {
         <br />
         <p>Some of my Hobbies include:</p>
         <ul>
-          <li>This</li>
-          <li>Oh and this!</li>
-          <li>Don't forget this!!</li>
-          <li>Last but not least! THIS!!!</li>
+          <li>
+            🎸 When I'm not scheming on my next project, you'll often find me
+            playing something edgy on my guitar.
+          </li>
+          <li>
+            📖 In my spare time, I delve into books on marketing and software
+            development, constantly seeking to broaden my knowledge.
+          </li>
+          <li>📚 I have a deep fascination with morality and philosophy.</li>
+          <li>
+            🎮 Video games are another passion of mine, providing an interactive
+            medium for storytelling and immersive experiences. They allow me to
+            unwind and tap into my imagination.
+          </li>
         </ul>
       </div>
     </div>
