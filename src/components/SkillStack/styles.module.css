@@ -41,6 +41,7 @@
   color: #333;
   font-size: 14px;
   font-weight: 600;
+  background-color: white;
   transition: background-color 330ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
