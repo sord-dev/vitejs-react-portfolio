@@ -8,7 +8,7 @@ export const Profile = () => {
     <>
       <FadeIn>
         <AboutMe />
-        <SkillStack {...{ skills }} />;
+        <SkillStack {...{ skills }} />
       </FadeIn>
     </>
   );

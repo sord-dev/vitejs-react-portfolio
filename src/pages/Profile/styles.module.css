@@ -1,0 +1,17 @@
+.social-list {
+  display: flex;
+  gap: 1em;
+  align-content: center;
+  justify-content: center;
+}
+
+.social-list svg {
+  opacity: 0.6;
+
+  transition: opacity 230ms cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+
+.social-list svg:hover {
+  opacity: 1;
+}

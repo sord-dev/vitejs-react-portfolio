@@ -6,7 +6,7 @@ export const SkillStack = ({ skills = {} }) => {
 
   return (
     <>
-      <h2>My Skills</h2>
+      <h2 style={{ textAlign: 'center' }}>My Skills</h2>
       <div className={styles['skill-stack']}>
         <div className={styles['stack']}>
           <button
