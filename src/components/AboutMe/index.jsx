@@ -2,6 +2,8 @@ import { useRef } from 'react';
 import Typewriter from 'typewriter-effect';
 import useMouseResponsiveFloating from '../../utils/hooks/useMouseResponsiveFloating';
 
+import styles from './styles.module.css';
+
 import {
   AiFillBook,
   AiFillGithub,
