@@ -71,16 +71,19 @@ const SocialList = () => {
   return (
     <div className={styles['social-list']}>
       <IconContext.Provider value={{ size: '3em' }}>
-        <a href="https://www.linkedin.com/in/stefansyrett/" target='_blank'>
+        <a href="https://www.linkedin.com/in/stefansyrett/" target="_blank">
           <AiFillLinkedin />
         </a>
-        <a href="https://github.com/sord-dev" target='_blank'>
+        <a href="https://github.com/sord-dev" target="_blank">
           <AiFillGithub />
         </a>
-        <a href="mailto:stefansyrett17@gmail.com" target='_blank'>
+        <a href="mailto:stefansyrett17@gmail.com" target="_blank">
           <AiFillMail />
         </a>
-        <a href="https://docs.google.com/document/d/1YgO4AhYtWiec13T5Vxv4zgl8o1S-_MzFJfERLmmYk0Q/edit?usp=sharing" target='_blank'>
+        <a
+          href="https://docs.google.com/document/d/1YgO4AhYtWiec13T5Vxv4zgl8o1S-_MzFJfERLmmYk0Q/edit?usp=sharing"
+          target="_blank"
+        >
           <AiFillBook />
         </a>
       </IconContext.Provider>
