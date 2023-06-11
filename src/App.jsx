@@ -3,7 +3,6 @@ import { Home, Profile, Projects } from './pages';
 
 // todo
 
-// update your cv
 // add a contact component to home page
 
 function App() {
